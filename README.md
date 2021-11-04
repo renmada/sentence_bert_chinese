@@ -8,6 +8,10 @@ Most datas are from [CLUEDatasetSearch](https://github.com/CLUEbenchmark/CLUEDat
 Acording to the paper, after training 1 epoch on NLI data, training 2 epoches on STS data.  
 The original BERT from [ymcui/Chinese-BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm), using **RTB3**(small size) and **Robert_wwm_ext**(bert_base size)  
 
+```bash
+# Modify the data path in training_src/train.py
+python train.py
+```
 # Getting Model
 
 ## use Huggingface-Transformers
